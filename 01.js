@@ -12,6 +12,11 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  const onlynumbers = array.filter(Number.isInteger);
+  return onlynumbers;
+
+
+
 }
 
 // No modifiques nada debajo de esta linea //
